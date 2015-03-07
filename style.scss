@@ -1,0 +1,86 @@
+@import "reset";
+
+body {
+	font-family: 'TBUDGoStd-SuperLight', Avenir, 'Helvetica neue', Helvetica, '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	letter-spacing: 2px;
+	@media screen and (max-width: 800px) {
+		min-width: 320px;
+	}
+}
+
+p {
+	line-height: 1.4em;
+}
+
+.mainBackground {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	height: 3884px;
+	background: url("images/background.png") no-repeat;
+	background-position: center center;
+}
+
+
+.logo {
+	position: absolute;
+	top: 30px;
+}
+
+.catchcopy {
+	position: absolute;
+	top: 200px;
+}
+
+.learnmore {
+	position: absolute;
+	top: 510px;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.mainvisual {
+	position: absolute;
+	top: 330px;
+	left: 700px;
+}
+
+.scene {
+	position: absolute;
+	top: 1000px;
+	left: 600px;
+}
+
+.kindness {
+	position: absolute;
+	top: 1170px;
+}
+
+.mechanism {
+	position: absolute;
+	top: 2030px;
+}
+
+.productfor {
+	position: absolute;
+	top: 3500px;
+}
+
+.ohd3 {
+	position: absolute;
+	top: 130px;
+	left: 40px;
+	font-size: 35px;
+	color: white;
+}
+
+.mainFooter {
+	position: absolute;
+	top: 3857px;
+	width: 1100px;
+	font-size: 12px;
+	text-align: center;
+	color: #7f8c8d;
+}
+
