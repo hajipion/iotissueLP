@@ -3,9 +3,6 @@
 body {
 	font-family: 'TBUDGoStd-SuperLight', Avenir, 'Helvetica neue', Helvetica, '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
 	letter-spacing: 2px;
-	@media screen and (max-width: 800px) {
-		min-width: 320px;
-	}
 }
 
 p {
